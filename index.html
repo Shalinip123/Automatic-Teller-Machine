@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ATM Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>ATM LOGIN</h2>
+        <form id="loginForm">
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+
+            <label for="pin">PIN:</label>
+            <input type="password" id="pin" name="pin" required>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="showPin">
+                <label for="showPin">Show PIN</label>
+            </div>
+
+            <button type="submit">LOGIN</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
